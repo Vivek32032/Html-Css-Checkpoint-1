@@ -53,7 +53,7 @@ table {
 
 
 
-
+/*---------for exercise 1 style below --------*/
 
 
 body {
@@ -61,14 +61,14 @@ body {
     text-align: center;
     }
 
-h1 {
+.h1 {
     font-size: 40px;
     /* font-weight: bold; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 40px;
     }
 
-h2{
+.h2{
      font-size: 30px;
      font-weight: 500;
      margin: 20px;
@@ -80,7 +80,6 @@ span {
 }
 
 .Exercise1_box {
-    /* display: inline-block; */
     width: 150px;
     height: 150px;
     background-color: #99d8ca;
@@ -88,14 +87,11 @@ span {
     box-shadow: 0 0 0 5px #0d1430, 0 0 0 20px #90ffa9 ;    
     margin: 20px;
     border-radius: 1%;
-    /* align-items: center; */
-    /* box-shadow: 0 0 0 20px blue; */
 
 }
 
 div {
     display: inline-block;
-    /* align-items: center; */
 }
 
 
@@ -106,8 +102,6 @@ div {
     background-color: rgba(77, 79, 190, 0.863);
     border: 1px solid rgb(4, 1, 20);
     vertical-align: middle;
-    /* position: absolute; */
-
 }
 
 .gap {
@@ -127,13 +121,7 @@ div {
 }
 .margin_color {
     background-color: #5873e2;
-}.blog_box {
-    width: 600px;
-    height: 400px;
-    display: inline-block;
-    background-color: turquoise;
 }
-
 
 nav {
     background-color: rgb(14, 14, 51);
@@ -151,16 +139,9 @@ nav a {
     color: white;
     text-decoration: none;
 }
-/* .home {
-    color: green;
-    text-decoration: none;
-} */.blog_box {
-    width: 600px;
-    height: 400px;
-    display: inline-block;
-    background-color: turquoise;
-}
-hr {
+
+
+.hr {
    
     margin: 40px 60px;
     border-top: 2px dotted rgb(180, 167, 167);
@@ -172,13 +153,8 @@ hr {
 /*---------for exercise 1 style above --------*/
 
 /*---------for exercise 2 style below --------*/
-/*  <section>
-          <img class="blog_box" src="assets/media/img/pic01.png" alt="bulb image">
-            <div class="blog_box"></div> 
-        </section>
-    background-color: blueviolet;
-    color: white;
-}         */
+
+
 .container {
     width: 660px;
     /* font-size: 0px; */
@@ -186,6 +162,7 @@ hr {
     margin-bottom: 30px;
     margin-top: 30px;
 } 
+
 .child {                                                                          
     width: 200px;
     height: 180px;
@@ -210,4 +187,56 @@ h3 {
     font-size: 20px;
 }
 
+
+/*---------for exercise 2 style above --------*/
+
+
 /* ------------------Blog page Styling ----------------*/
+
+
+
+
+.blog_container {
+    width: 100%;
+    /* display: inline-block; */
+    margin: 20px 60px 20px 0px;
+}
+
+
+.width_original {
+    width: 100%;
+    
+}
+
+
+.blog_box {
+    width: 40%;
+    display: inline-block;
+     text-align: left;
+     vertical-align: top;
+     padding: 0%;
+     margin-left: 30px;
+     display: inline-block;
+}
+.blog_h2 {
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 30px;
+}
+.blog_box p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.blog_box button{
+    width: 30%;
+    height: 40px;
+    background-color: green;
+    border-radius: 20%;
+    font-size: 120%;
+}
+.body_bottom_space {
+    margin-bottom: 100px;
+}
