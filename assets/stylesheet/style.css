@@ -75,7 +75,8 @@ body {
  }   
  
  
-span {
+span, div, .inline_block {
+
     display: inline-block;
 }
 
@@ -90,9 +91,6 @@ span {
 
 }
 
-div {
-    display: inline-block;
-}
 
 
 .circle_box {
@@ -214,12 +212,11 @@ h3 {
 
 .blog_box {
     width: 40%;
-    display: inline-block;
+    /* display: inline-block; */
      text-align: left;
      vertical-align: top;
      padding: 0%;
      margin-left: 30px;
-     display: inline-block;
 }
 .blog_h2 {
     font-size: 40px;
@@ -237,9 +234,13 @@ h3 {
     width: 30%;
     height: 40px;
     background-color: green;
-    border-radius: 20%;
+    border-radius: 12px;
     font-size: 120%;
 }
 .body_bottom_space {
     margin-bottom: 100px;
+}
+
+.block {
+    display: block;
 }
